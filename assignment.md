@@ -19,6 +19,14 @@ arr = np.array([1, 2, 3, 4, 5])
 Write a Python code to multiply each element in the array by 2.
 
 Answer:
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+result = arr * 2
+
+print(result)
+[ 2  4  6  8 10]
+
 
 ```python
 
@@ -37,6 +45,15 @@ Write a Python code to select the second row of the array.
 Answer:
 
 ```python
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+result = arr * 2
+
+print(result)
+[[ 2  4  6]
+ [ 8 10 12]
+ [14 16 18]]
 
 ```
 
@@ -47,6 +64,16 @@ Create a 2D numpy array of shape (5, 5) filled with the number 1.
 Answer:
 
 ```python
+import numpy as np
+
+arr = np.ones((5, 5), dtype=int)
+
+print(arr)
+[[1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]]
 
 ```
 
@@ -63,6 +90,16 @@ Write a Python code to calculate the sum of all the elements in each row.
 Answer:
 
 ```python
+import numpy as np
+
+arr = np.array([[1, 2, 3], 
+                [4, 5, 6], 
+                [7, 8, 9]])
+
+row_sums = np.sum(arr, axis=1)
+
+print(row_sums)
+[ 6 15 24]
 
 ```
 
