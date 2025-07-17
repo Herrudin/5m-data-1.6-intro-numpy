@@ -19,6 +19,7 @@ arr = np.array([1, 2, 3, 4, 5])
 Write a Python code to multiply each element in the array by 2.
 
 Answer:
+```python
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])
@@ -26,9 +27,6 @@ result = arr * 2
 
 print(result)
 [ 2  4  6  8 10]
-
-
-```python
 
 ```
 
