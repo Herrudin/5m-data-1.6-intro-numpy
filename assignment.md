@@ -114,6 +114,13 @@ Write a Python code to calculate the average of all the elements.
 Answer:
 
 ```python
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+average = np.mean(arr)
+
+print("Average of all elements:", average)
+
 
 ```
 
