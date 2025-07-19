@@ -121,6 +121,7 @@ average = np.mean(arr)
 
 print("Average of all elements:", average)
 
+Average of all elements: 5.0
 
 ```
 
